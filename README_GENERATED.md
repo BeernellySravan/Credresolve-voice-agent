@@ -128,27 +128,6 @@ Commands recognized (examples):
 - Contains `QA_DATASET` with Telugu Q/A pairs used by `qa_tool`.
 - To improve coverage: add more question variants and synonyms.
 
----
-
-##  Usage Tips & Known Limitations
-
-- STT uses Google Web Speech and may require good internet connection and a clear mic.
-- `gTTS` requires internet. If you need offline TTS, consider pyttsx3 or another local model.
-- The fuzzy QA matching is basic; consider embedding-based similarity for better results.
-- The eligibility logic is simplistic; integrate `eligibility_checker.check_eligibility()` and prompt for user profile fields when needed.
-
----
-
-##  Ideas & Next Steps (TODOs)
-
-- [ ] Replace rules with a small NLP classifier (intent detection).
-- [ ] Improve QA matching with embeddings (sentence-transformers).
-- [ ] Add an interactive flow to ask follow-up questions to build `user_profile` for eligibility.
-- [ ] Unit tests and CI.
-- [ ] Add a configuration file for locale and audio playback command.
-
----
-
 ##  Example Interaction (Telugu)
 
 1. App speaks: "నమస్తే!..."
