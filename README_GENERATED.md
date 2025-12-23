@@ -36,7 +36,7 @@ Note: `gTTS` and `SpeechRecognition` use online services (Google) so internet is
 
 ---
 
-## ▶ Quick Start (Run)
+##  Quick Start (Run)
 
 1. Ensure microphone and speakers work on your system.
 2. Run:
