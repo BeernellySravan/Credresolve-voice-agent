@@ -154,20 +154,3 @@ Commands recognized (examples):
 1. App speaks: "నమస్తే!..."
 2. User: "రైతులకు ఏ పథకాలు ఉన్నారు?"
 3. App: Looks up `QA_DATASET` and replies: "రైతుల కోసం రైతు భరోసా, పీఎం కిసాన్ వంటి పథకాలు ఉన్నాయి." (spoken via TTS)
-
----
-
-##  License
-
-Add a license of your choice (MIT recommended). If you want, I can add a `LICENSE` file.
-
----
-
-## Need me to write this into `README.md`?
-
-I created `README_GENERATED.md` with this content to avoid overwriting your existing file. If you'd like, I can replace the project's `README.md` with this content — just confirm and I'll update it.
-
-
----
-
-Happy to refine the README (add diagrams, badges, or step-by-step troubleshooting) — tell me what you'd like next! 
